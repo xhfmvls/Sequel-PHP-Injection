@@ -10,7 +10,7 @@ Participants are required to fortify the application's defenses against SQL Inje
 The vulnerability lies within the direct concatenation of user-provided input (name) into the SQL query string without proper validation or parameterization. The vulnerability is located in the app folder in files with a .php extension.
 
 Submissions for this challenge must comprise solely of the amended code, confined within the items.php file. To find hints or clues on fixing the vulnerability, refer to the Resource section below (Prevention against SQL Injection in PHP).
-
+  
 ## Requirements
 
 - PHP
@@ -35,12 +35,12 @@ Submissions for this challenge must comprise solely of the amended code, confine
    - Update the **config.php** file in the project directory with your database credentials:
      ```
      <?php
-    // Database configuration
-    $host = '[DB Host]';
-    $db = '[DB Name]';
-    $user = '[DB User]';
-    $pass = '[DB Password]';
-    $charset = 'utf8mb4';
+        // Database configuration
+        $host = '[DB Host]';
+        $db = '[DB Name]';
+        $user = '[DB User]';
+        $pass = '[DB Password]';
+        $charset = 'utf8mb4';
      ```
 
 ### 4. Run the Application
