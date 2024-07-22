@@ -11,7 +11,7 @@ test_cases = [
         'header': headers[0],
         'method': 'GET',
         'body': "",
-        'expected': '{"message":"Database connection successful"}[{"id":"1","name":"Item 1","description":"Description for Item 1"}]',
+        'expected': '{"message":"Database connection successful"}[{"id":1,"name":"Item 1","description":"Description for Item 1"}]',
     },
     {
         'checking_method': quanchecker.response_based_check,
@@ -19,7 +19,7 @@ test_cases = [
         'header': headers[0],
         'method': 'GET',
         'body': "",
-        'expected': '{"message":"Database connection successful"}[{"id":"3","name":"Item\'3","description":"Description for Item 3"}]',
+        'expected': '{"message":"Database connection successful"}[{"id":3,"name":"Item\'3","description":"Description for Item 3"}]',
     },
     {
         'checking_method': quanchecker.response_based_check,
